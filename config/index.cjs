@@ -13,27 +13,27 @@ const USER_CONFIG = {
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: '020d9472afd2ec2eb26f7461224a4295',
 
-  PROVINCE: '安徽',
-  CITY: '合肥',
+  PROVINCE: '云南',
+  CITY: '昆明',
 
   USERS: [
     {
       // 想要发送的人的名字
-      name: '宝贝',
+      name: 'p宝',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'oq0YZ6MRLUF0SY55iK30ge9HYjY4',
+      id: 'oq0YZ6P6BFVrqbBIjEyvsU2ru8yk',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '0eIX77C79ZgPdIwMEBd9CDzKk_Lw32mHF0xRAUQnzyk',
+      useTemplateId: 'foCkGGBAuXEyX8bYq937NCO4pvViCeY8Xc8sZ-5c6bo',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '05-07',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '宝贝', year: '2003', date: '05-07',
+          type: '*阴历生日', name: 'p宝', year: '2003', date: '04-07',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: 'p宝', year: '2003', date: '05-07',
+          type: '阳历生日', name: 'p宝', year: '2003', date: '05-09',
         },
         {
           type: '节日', name: '相识纪念日', year: '2023', date: '04-06',
@@ -44,14 +44,14 @@ const USER_CONFIG = {
         // 在一起的日子
         { keyword: 'love_day', date: '2023-04-06' },
         // 结婚纪念日
-        { keyword: 'marry_day', date: '2022-09-09' },
+        { keyword: 'marry_day', date: '2023-04-06' },
       ],
     },
   ],
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: '0eIX77C79ZgPdIwMEBd9CDzKk_Lw32mHF0xRAUQnzyk',
+  CALLBACK_TEMPLATE_ID: 'foCkGGBAuXEyX8bYq937NCO4pvViCeY8Xc8sZ-5c6bo',
 
   CALLBACK_USERS: [
     {
